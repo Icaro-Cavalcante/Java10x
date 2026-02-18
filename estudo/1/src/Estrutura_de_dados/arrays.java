@@ -16,6 +16,12 @@ public class arrays {
         for (int i = 0; i < tamanho; i++) {
             System.out.println(array[i]);
         }
+
+        // Mas se edeclararmos o array
+        array = new String[tamanho];
+        System.out.println(array[0]); // NULL
+        // O array antigo é sobrescrito usando o garbage collector
+
         String[] sarray = new String[1];
         int[] iarray = new int[1];
         boolean[] barray = new boolean[1];
