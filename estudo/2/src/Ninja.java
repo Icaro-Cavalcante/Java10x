@@ -1,0 +1,6 @@
+public class Ninja {
+    String nome;
+    int idade;
+    String aldeia;
+    String patente;
+}
