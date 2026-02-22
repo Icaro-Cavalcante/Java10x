@@ -15,5 +15,18 @@ public class Main {
         sasuke.patente = "Chunin";
 
         System.out.println(sasuke.nome);
+
+        // Chamando o metodo
+        sasuke.sharingan();
+        System.out.println(naruto.rasengan());
+
+        // Calculando quanas missoes faltam para sasuke se tornar jonin
+        int faltando = sasuke.ate_jonin(35);
+        if (faltando <= 0) {
+            System.out.println("Sasuke já é um jonin.");
+        }
+        else {
+            System.out.println("Faltam " + faltando + " missões para sasuke se tornar jonin");
+        }
     }
 }
