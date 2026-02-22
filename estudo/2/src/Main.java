@@ -22,6 +22,7 @@ public class Main {
 
         // Calculando quanas missoes faltam para sasuke se tornar jonin
         int faltando = sasuke.ate_jonin(35);
+        System.out.println(faltando);
         if (faltando <= 0) {
             System.out.println("Sasuke já é um jonin.");
         }
