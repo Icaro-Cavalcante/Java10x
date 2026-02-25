@@ -2,13 +2,13 @@
 
 public class Main {
     public static void main(String[] args) {
-        Ninja naruto = new Ninja();
+        Uzumaki naruto = new Uzumaki();
         naruto.nome = "Naruto Uzumaki";
         naruto.idade = 15;
         naruto.aldeia = "Konoha";
         naruto.patente = "Jonin";
 
-        Ninja sasuke = new Ninja();
+        Uchiha sasuke = new Uchiha();
         sasuke.nome = "Sasuke Uchiha";
         sasuke.aldeia = "Konoha";
         sasuke.idade = 16;
@@ -19,6 +19,7 @@ public class Main {
         // Chamando o metodo
         sasuke.sharingan();
         System.out.println(naruto.rasengan());
+        
 
         // Calculando quanas missoes faltam para sasuke se tornar jonin
         int faltando = sasuke.ate_jonin(35);

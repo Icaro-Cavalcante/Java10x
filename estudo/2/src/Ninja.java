@@ -6,16 +6,9 @@ public class Ninja {
 
     // Criando um metodo público
 
-    // void não retorna nenhum valor
-    public void sharingan() {
-        System.out.println("Amaterasu!");
-    }
+
 
     // String retorna uma string
-
-    public String rasengan() {
-        return "Rasengan";
-    }
 
     public int ate_jonin(int missoes) {
         if (missoes < 50) {
