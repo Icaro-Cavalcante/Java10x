@@ -14,7 +14,21 @@ public class Main {
         sasuke.idade = 16;
         sasuke.patente = "Chunin";
 
-        System.out.println(sasuke.nome);
+        Hyuga hinata = new Hyuga();
+        hinata.nome = "Hinata Hyuga";
+        hinata.aldeia = "Konoha";
+        hinata.idade = 16;
+        hinata.patente = "Chunin";
+
+        System.out.println(hinata.byakugan());
+
+        Boruto boruto = new Boruto();
+        boruto.nome = "Boruto Uzumaki";
+        boruto.aldeia = "Konoha";
+        boruto.idade = 8;
+        boruto.patente = "Genin";
+
+        boruto.ativar_jougan();
 
         // Chamando o metodo
         sasuke.sharingan();
