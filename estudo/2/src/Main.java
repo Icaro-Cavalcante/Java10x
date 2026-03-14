@@ -20,6 +20,9 @@ public class Main {
         hinata.idade = 16;
         hinata.patente = "Chunin";
 
+        Ninja kakashi = new Ninja();
+        kakashi.nome = "Kakashi Hatake";
+
         System.out.println(hinata.byakugan());
 
         Boruto boruto = new Boruto();
@@ -33,6 +36,8 @@ public class Main {
         // Chamando o metodo
         sasuke.sharingan();
         System.out.println(naruto.rasengan());
+        sasuke.ataque_especial();
+        kakashi.ataque_especial();
         
 
         // Calculando quanas missoes faltam para sasuke se tornar jonin
