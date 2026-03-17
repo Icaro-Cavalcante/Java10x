@@ -7,15 +7,12 @@ public class Hokage {
     String poderes;
     String cla;
 
-    public Hokage(Boolean vivo_ou_nao, String poderes, String cla, int idade, String nome) {
+    public Hokage(String nome, int idade, Boolean vivo_ou_nao, String poderes, String cla) {
+        this.nome = nome;
+        this.idade = idade;
         this.vivo_ou_nao = vivo_ou_nao;
         this.poderes = poderes;
         this.cla = cla;
-        this.idade = idade;
-        this.nome = nome;
-    }
-
-    public Hokage() {
     }
 }
 

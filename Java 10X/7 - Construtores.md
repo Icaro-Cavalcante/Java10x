@@ -10,7 +10,7 @@ public Hokages () {
 
 AllArgs Constructor
 
-> Um construtor que é preenchudo com todos os atributos da classe
+> Um construtor que é preenchido com todos os atributos da classe
 
 ```java
 public Hokages(String nome, int idade, Boolean vivo_ou_nao) {  

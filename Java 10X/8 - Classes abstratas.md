@@ -1,0 +1,1 @@
+> Não podem ser instanciadas como objetos e tem métodos abstratos que não podem ter corpo

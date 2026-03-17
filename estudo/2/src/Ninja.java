@@ -1,4 +1,4 @@
-public class Ninja {
+public abstract class Ninja {
     String nome;
     int idade;
     String aldeia;
@@ -19,9 +19,7 @@ public class Ninja {
         }
     }
 
-    public void ataque_especial() {
-        System.out.println("Meu nome é " + nome + " e esse é meu poder especial de ninja.");
-    }
+    public abstract String ataque_especial();
 
     // int retorna um int
 }

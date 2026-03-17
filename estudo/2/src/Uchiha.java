@@ -6,7 +6,7 @@ public class Uchiha extends Ninja {
     }
 
     @Override // Anotação para sobrescrever e fazer polimorfismo
-    public void ataque_especial() {
-        System.out.println("Meu nome é " + nome + " e esse é meu poder especial de Uchiha do estilo fogo.");
+    public String ataque_especial() {
+        return ("Meu nome é " + nome + " e esse é meu poder especial de Uchiha do estilo fogo.");
     }
 }
