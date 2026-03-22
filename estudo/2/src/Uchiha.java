@@ -1,6 +1,7 @@
-public class Uchiha extends Ninja {
+public class Uchiha extends Ninja implements Sharingan {
 
     // void não retorna nenhum valor
+
     public void sharingan() {
         System.out.println("Amaterasu!");
     }

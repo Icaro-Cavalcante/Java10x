@@ -38,6 +38,11 @@ public class Main {
 
         Hyuga neji = new Hyuga("Chunin", "Folha", 12, "Neji Hyuga");
         neji.estrategiaDeBatalhaNinja();
+
+        Hatake kakashi = new Hatake("Jounin", "Konoha", 35, "Kakashi Hatake");
+        kakashi.sharingan();
+
+        kakashi.NinjaDeElite();
         
 
         // Calculando quanas missoes faltam para sasuke se tornar jonin
