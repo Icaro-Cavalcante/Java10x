@@ -4,4 +4,14 @@ public class Hyuga extends Ninja {
     public String ataque_especial() {
         return nome + " ativou o byakugan.";
     }
+
+    public Hyuga(String patente, String aldeia, int idade, String nome) {
+        super(patente, aldeia, idade, nome);
+    }
+
+    public Hyuga (){
+
+    }
+
+
 }

@@ -1,4 +1,4 @@
-public abstract class Ninja {
+public abstract class Ninja implements estrategiaDeBatalha {
     String nome;
     int idade;
     String aldeia;
@@ -20,6 +20,24 @@ public abstract class Ninja {
     }
 
     public abstract String ataque_especial();
+
+
+
+    public Ninja(String patente, String aldeia, int idade, String nome) {
+        this.patente = patente;
+        this.aldeia = aldeia;
+        this.idade = idade;
+        this.nome = nome;
+    }
+
+    public Ninja() {
+
+    }
+
+    @Override
+    public void estrategiaDeBatalhaNinja() {
+        System.out.println("Essa é a estratégia de batalha de " + nome);
+    }
 
     // int retorna um int
 }

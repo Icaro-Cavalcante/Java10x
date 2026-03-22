@@ -35,6 +35,9 @@ public class Main {
         sasuke.sharingan();
         System.out.println(naruto.ataque_especial());
         sasuke.ataque_especial();
+
+        Hyuga neji = new Hyuga("Chunin", "Folha", 12, "Neji Hyuga");
+        neji.estrategiaDeBatalhaNinja();
         
 
         // Calculando quanas missoes faltam para sasuke se tornar jonin

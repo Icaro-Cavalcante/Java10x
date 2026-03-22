@@ -9,4 +9,11 @@ public class Uchiha extends Ninja {
     public String ataque_especial() {
         return ("Meu nome é " + nome + " e esse é meu poder especial de Uchiha do estilo fogo.");
     }
+
+    public Uchiha(String patente, String aldeia, int idade, String nome) {
+        super(patente, aldeia, idade, nome);
+    }
+
+    public Uchiha() {
+    }
 }
