@@ -6,19 +6,19 @@ public class Main {
         naruto.nome = "Naruto Uzumaki";
         naruto.idade = 15;
         naruto.aldeia = "Konoha";
-        naruto.patente = "Jonin";
+        naruto.patente = Patente.JOUNIN;
 
         Uchiha sasuke = new Uchiha();
         sasuke.nome = "Sasuke Uchiha";
         sasuke.aldeia = "Konoha";
         sasuke.idade = 16;
-        sasuke.patente = "Chunin";
+        sasuke.patente = Patente.CHUNIN;
 
         Hyuga hinata = new Hyuga();
         hinata.nome = "Hinata Hyuga";
         hinata.aldeia = "Konoha";
         hinata.idade = 16;
-        hinata.patente = "Chunin";
+        hinata.patente = Patente.CHUNIN;
 
 
         System.out.println(hinata.ataque_especial());
@@ -27,7 +27,7 @@ public class Main {
         boruto.nome = "Boruto Uzumaki";
         boruto.aldeia = "Konoha";
         boruto.idade = 8;
-        boruto.patente = "Genin";
+        boruto.patente = Patente.GENIN;
 
         boruto.ativar_jougan();
 
@@ -36,11 +36,22 @@ public class Main {
         System.out.println(naruto.ataque_especial());
         sasuke.ataque_especial();
 
-        Hyuga neji = new Hyuga("Chunin", "Folha", 12, "Neji Hyuga");
+        Hyuga neji = new Hyuga(Patente.CHUNIN, "Folha", 12, "Neji Hyuga");
         neji.estrategiaDeBatalhaNinja();
 
-        Hatake kakashi = new Hatake("Jounin", "Konoha", 35, "Kakashi Hatake");
+        Hatake kakashi = new Hatake(Patente.JOUNIN, "Konoha", 35, "Kakashi Hatake");
         kakashi.sharingan();
+
+        Uchiha madara = new Uchiha(Patente.JOUNIN, "Konoha", 70, "Uchiha Madara", 100, "Susanoo Perfeito");
+
+        Uchiha itachi = new Uchiha(Patente.JOUNIN, "Konoha", 35, "Itachi Uchiha", 200);
+
+        Uchiha obito = new Uchiha(Patente.JOUNIN, "Konoha", 70, "Obito Uchiha", 100, "Kamui");
+
+        obito.ativarMangekyou();
+
+
+        itachi.ativarMangekyou("Amaterasu", "Tsukiyomi");
 
         kakashi.NinjaDeElite();
         
