@@ -4,7 +4,7 @@ public class Uzumaki extends Ninja {
         return nome + " usou a esfera em espiral rasengan.";
     }
 
-    public Uzumaki(String patente, String aldeia, int idade, String nome) {
+    public Uzumaki(Patente patente, String aldeia, int idade, String nome) {
         super(patente, aldeia, idade, nome);
     }
 

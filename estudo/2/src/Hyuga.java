@@ -5,7 +5,7 @@ public class Hyuga extends Ninja {
         return nome + " ativou o byakugan.";
     }
 
-    public Hyuga(String patente, String aldeia, int idade, String nome) {
+    public Hyuga(Patente patente, String aldeia, int idade, String nome) {
         super(patente, aldeia, idade, nome);
     }
 

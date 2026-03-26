@@ -2,7 +2,8 @@ public abstract class Ninja implements estrategiaDeBatalha {
     String nome;
     int idade;
     String aldeia;
-    String patente;
+    Patente patente;
+    int numero_missoes;
 
     // Criando um metodo público
 
@@ -23,11 +24,17 @@ public abstract class Ninja implements estrategiaDeBatalha {
 
 
 
-    public Ninja(String patente, String aldeia, int idade, String nome) {
+    public Ninja(Patente patente, String aldeia, int idade, String nome) {
         this.patente = patente;
         this.aldeia = aldeia;
         this.idade = idade;
         this.nome = nome;
+    }
+
+    // Sobrecarga de métodos, você não precisa redeclarar o construtor só novos atributos
+    public Ninja(Patente patente, String aldeia, int idade, String nome, int numero_missoes) {
+        this(patente, aldeia, idade, nome);
+        this.numero_missoes = numero_missoes;
     }
 
     public Ninja() {

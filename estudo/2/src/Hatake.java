@@ -4,7 +4,7 @@ public class Hatake extends Ninja implements Sharingan, Anbu {
         return "Raikiri";
     }
 
-    public Hatake(String patente, String aldeia, int idade, String nome) {
+    public Hatake(Patente patente, String aldeia, int idade, String nome) {
         super(patente, aldeia, idade, nome);
     }
 
