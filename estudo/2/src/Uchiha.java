@@ -35,4 +35,9 @@ public class Uchiha extends Ninja implements Sharingan {
         super(patente, aldeia, idade, nome, numero_missoes);
         this.mangekyou = mangekyou;
     }
+
+    @Override
+    public String toString() {
+        return "Nome: " + nome + "\nPatente: " + patente + "\nIdade: " + idade + "\nNumero de missões: " + numero_missoes + "\nMangekyou: " + mangekyou;
+    }
 }

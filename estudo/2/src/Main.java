@@ -53,6 +53,8 @@ public class Main {
 
         itachi.ativarMangekyou("Amaterasu", "Tsukiyomi");
 
+        System.out.println(obito);
+
         kakashi.NinjaDeElite();
         
 
