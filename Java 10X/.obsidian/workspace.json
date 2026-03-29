@@ -42,12 +42,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "9 - Match Case.md",
+                "file": "13 - Métodos Final.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "9 - Match Case"
+              "title": "13 - Métodos Final"
             }
           },
           {
@@ -233,6 +233,20 @@
             }
           },
           {
+            "id": "8e84c125915e7f27",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "13 - Métodos Final.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "13 - Métodos Final"
+            }
+          },
+          {
             "id": "621e499db21f8185",
             "type": "leaf",
             "state": {
@@ -247,7 +261,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 2
       },
       {
         "id": "389d27b3af7c4077",
@@ -441,10 +455,11 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "e982df75fd165886",
+  "active": "b659cb2b04ad72bc",
   "lastOpenFiles": [
-    "iniciante/8 - Scanners.md",
+    "13 - Métodos Final.md",
     "12 - toString.md",
+    "iniciante/8 - Scanners.md",
     "5 - Interfaces.md",
     "6 - Polimorfismo.md",
     "11 - Sobrecarga de construtores.md",
