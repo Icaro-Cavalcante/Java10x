@@ -1,9 +1,53 @@
 public abstract class Ninja implements estrategiaDeBatalha {
-    String nome;
-    int idade;
-    String aldeia;
-    Patente patente;
-    int numero_missoes;
+    private String nome;
+    private int idade;
+    private String aldeia;
+    private Patente patente;
+    private int numero_missoes;
+
+    // Getters
+
+    public String getNome() {
+        return nome;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public String getAldeia() {
+        return aldeia;
+    }
+
+    public Patente getPatente() {
+        return patente;
+    }
+
+    public int getNumero_missoes() {
+        return numero_missoes;
+    }
+
+    // Setters
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public void setAldeia(String aldeia) {
+        this.aldeia = aldeia;
+    }
+
+    public void setPatente(Patente patente) {
+        this.patente = patente;
+    }
+
+    public void setNumero_missoes(int numero_missoes) {
+        this.numero_missoes = numero_missoes;
+    }
 
     // Criando um metodo público
 
