@@ -1,7 +1,7 @@
 public class Uzumaki extends Ninja {
 
     public String ataque_especial() {
-        return nome + " usou a esfera em espiral rasengan.";
+        return getNome() + " usou a esfera em espiral rasengan.";
     }
 
     public Uzumaki(Patente patente, String aldeia, int idade, String nome) {

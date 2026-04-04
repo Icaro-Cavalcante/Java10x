@@ -2,7 +2,7 @@ public class Hyuga extends Ninja {
 
     @Override
     public String ataque_especial() {
-        return nome + " ativou o byakugan.";
+        return getNome() + " ativou o byakugan.";
     }
 
     public Hyuga(Patente patente, String aldeia, int idade, String nome) {

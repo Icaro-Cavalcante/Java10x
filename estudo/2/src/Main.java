@@ -3,31 +3,31 @@
 public class Main {
     public static void main(String[] args) {
         Uzumaki naruto = new Uzumaki();
-        naruto.nome = "Naruto Uzumaki";
-        naruto.idade = 15;
-        naruto.aldeia = "Konoha";
-        naruto.patente = Patente.JOUNIN;
+        naruto.setNome("Naruto Uzumaki");
+        naruto.setIdade(15);
+        naruto.setAldeia("Konoha");
+        naruto.setPatente(Patente.JOUNIN);
 
         Uchiha sasuke = new Uchiha();
-        sasuke.nome = "Sasuke Uchiha";
-        sasuke.aldeia = "Konoha";
-        sasuke.idade = 16;
-        sasuke.patente = Patente.CHUNIN;
+        sasuke.setNome("Sasuke Uchiha");
+        sasuke.setAldeia("Konoha");
+        sasuke.setIdade(16);
+        sasuke.setPatente(Patente.CHUNIN);
 
         Hyuga hinata = new Hyuga();
-        hinata.nome = "Hinata Hyuga";
-        hinata.aldeia = "Konoha";
-        hinata.idade = 16;
-        hinata.patente = Patente.CHUNIN;
+        hinata.setNome("Hinata Hyuga");
+        hinata.setAldeia("Konoha");
+        hinata.setIdade(16);
+        hinata.setPatente(Patente.CHUNIN);
 
 
         System.out.println(hinata.ataque_especial());
 
         Boruto boruto = new Boruto();
-        boruto.nome = "Boruto Uzumaki";
-        boruto.aldeia = "Konoha";
-        boruto.idade = 8;
-        boruto.patente = Patente.GENIN;
+        boruto.setNome("Boruto Uzumaki");
+        boruto.setAldeia("Konoha");
+        boruto.setIdade(8);
+        boruto.setPatente(Patente.GENIN);
 
         boruto.ativar_jougan();
 

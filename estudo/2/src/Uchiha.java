@@ -6,21 +6,21 @@ public class Uchiha extends Ninja implements Sharingan {
     //TODO: Mangekyou atributo
 
     public void sharingan() {
-        System.out.println(nome + " ativou o sharingan e agora possui a habilidade de percepção aguçada e pode copiar jutsus.");
+        System.out.println(getNome() + " ativou o sharingan e agora possui a habilidade de percepção aguçada e pode copiar jutsus.");
     }
 
     @Override // Anotação para sobrescrever e fazer polimorfismo
     public String ataque_especial() {
-        return ("Meu nome é " + nome + " e esse é meu poder especial de Uchiha do estilo fogo.");
+        return ("Meu nome é " + getNome() + " e esse é meu poder especial de Uchiha do estilo fogo.");
     }
 
     public void ativarMangekyou() {
-        System.out.println(nome + " ativou sua habilidade " + mangekyou + " do seu Mangekyou Sharingan.");
+        System.out.println(getNome() + " ativou sua habilidade " + mangekyou + " do seu Mangekyou Sharingan.");
     }
 
     public void ativarMangekyou(String olho_esquerdo, String olho_direito) {
-        System.out.println(nome + " ativou sua habilidade " + olho_esquerdo + " do seu Mangekyou Sharingan no olho esquerdo.");
-        System.out.println(nome + " ativou sua habilidade " + olho_direito + " do seu Mangekyou Sharingan no olho direito.");
+        System.out.println(getNome() + " ativou sua habilidade " + olho_esquerdo + " do seu Mangekyou Sharingan no olho esquerdo.");
+        System.out.println(getNome() + " ativou sua habilidade " + olho_direito + " do seu Mangekyou Sharingan no olho direito.");
     }
 
     public Uchiha() {
@@ -38,6 +38,6 @@ public class Uchiha extends Ninja implements Sharingan {
 
     @Override
     public String toString() {
-        return "Nome: " + nome + "\nPatente: " + patente + "\nIdade: " + idade + "\nNumero de missões: " + numero_missoes + "\nMangekyou: " + mangekyou;
+        return "Nome: " + getNome() + "\nPatente: " + getPatente() + "\nIdade: " + getIdade() + "\nNumero de missões: " + getNumero_missoes() + "\nMangekyou: " + mangekyou;
     }
 }
