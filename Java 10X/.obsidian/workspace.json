@@ -93,6 +93,20 @@
             }
           },
           {
+            "id": "21d2365d266c2c4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "15 - Encapsulamento.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "15 - Encapsulamento"
+            }
+          },
+          {
             "id": "0c62f334960db6c2",
             "type": "leaf",
             "state": {
@@ -303,7 +317,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "389d27b3af7c4077",
@@ -497,26 +511,27 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "a640354421c22c89",
+  "active": "21d2365d266c2c4c",
   "lastOpenFiles": [
-    "Bem-vindo.md",
     "16 - Enums.md",
-    "11 - Sobrecarga de construtores.md",
-    "5 - Interfaces.md",
-    "13 - Métodos Final.md",
-    "6 - Polimorfismo.md",
-    "12 - toString.md",
     "15 - Encapsulamento.md",
-    "14 - Classes Final.md",
-    "iniciante/8 - Scanners.md",
-    "10 - Super classes.md",
-    "9 - Classes abstratas x Interfaces.md",
-    "8 - Classes abstratas.md",
-    "7 - Construtores.md",
-    "4- Herança.md",
-    "3 - POO.md",
-    "2 - Métodos.md",
     "1 - Classes e objetos.md",
+    "2 - Métodos.md",
+    "3 - POO.md",
+    "4- Herança.md",
+    "5 - Interfaces.md",
+    "6 - Polimorfismo.md",
+    "7 - Construtores.md",
+    "8 - Classes abstratas.md",
+    "9 - Classes abstratas x Interfaces.md",
+    "10 - Super classes.md",
+    "11 - Sobrecarga de construtores.md",
+    "12 - toString.md",
+    "13 - Métodos Final.md",
+    "14 - Classes Final.md",
+    "17 - lists.md",
+    "Bem-vindo.md",
+    "iniciante/8 - Scanners.md",
     "iniciante/10 - Ternários.md",
     "iniciante/11 - arrays.md",
     "iniciante/9 - Match Case.md",
