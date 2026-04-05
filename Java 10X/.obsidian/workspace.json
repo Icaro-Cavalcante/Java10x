@@ -112,12 +112,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "16 - Enums.md",
+                "file": "17 - lists.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "16 - Enums"
+              "title": "17 - lists"
             }
           },
           {
@@ -527,10 +527,10 @@
   },
   "active": "7c9b6907cde44295",
   "lastOpenFiles": [
+    "16 - Enums.md",
     "15 - Encapsulamento.md",
     "14 - Classes Final.md",
     "13 - Métodos Final.md",
-    "16 - Enums.md",
     "17 - lists.md",
     "18 - Generics.md",
     "1 - Classes e objetos.md",
