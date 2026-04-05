@@ -7,13 +7,12 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello, world!");
 
-        Kunai kunai = new Kunai("Comum");
-        Kunai kunai_grande = new Kunai("Grande");
-        List<Kunai> kunais = new ArrayList<>();
-        BolsaKunais bolsa = new BolsaKunais();
+        Equipamento kunai = new Equipamento("Kunai comum");
+        Equipamento kunai_grande = new Equipamento("Kunai grande");
+        BolsaGenerica bolsa = new BolsaGenerica();
 
-        bolsa.adicionar_kunai(kunai);
-        bolsa.adicionar_kunai(kunai_grande);
+        bolsa.adicionarEquipamento(kunai);
+        bolsa.adicionarEquipamento(kunai_grande);
 
         System.out.println(bolsa);
 

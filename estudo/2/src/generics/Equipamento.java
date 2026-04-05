@@ -1,6 +1,6 @@
 package generics;
 
-public class Kunai {
+public class Equipamento {
     private String nome;
 
     public String getNome() {
@@ -11,12 +11,17 @@ public class Kunai {
         this.nome = nome;
     }
 
-    public Kunai(String nome) {
+    public Equipamento() {
+
+    }
+
+    public Equipamento(String nome) {
         this.nome = nome;
     }
 
     @Override
     public String toString() {
-        return "Temos uma kunai " + nome;
+        return nome;
     }
+
 }
