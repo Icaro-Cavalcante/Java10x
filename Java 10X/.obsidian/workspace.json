@@ -112,12 +112,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "14 - Classes Final.md",
+                "file": "15 - Encapsulamento.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14 - Classes Final"
+              "title": "15 - Encapsulamento"
             }
           },
           {
@@ -527,8 +527,8 @@
   },
   "active": "7c9b6907cde44295",
   "lastOpenFiles": [
-    "13 - Métodos Final.md",
     "14 - Classes Final.md",
+    "13 - Métodos Final.md",
     "15 - Encapsulamento.md",
     "16 - Enums.md",
     "17 - lists.md",
