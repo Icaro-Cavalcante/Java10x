@@ -112,12 +112,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "18 - Generics.md",
+                "file": "14 - Classes Final.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "18 - Generics"
+              "title": "14 - Classes Final"
             }
           },
           {
@@ -527,10 +527,12 @@
   },
   "active": "7c9b6907cde44295",
   "lastOpenFiles": [
+    "13 - Métodos Final.md",
+    "14 - Classes Final.md",
+    "15 - Encapsulamento.md",
+    "16 - Enums.md",
     "17 - lists.md",
     "18 - Generics.md",
-    "16 - Enums.md",
-    "15 - Encapsulamento.md",
     "1 - Classes e objetos.md",
     "2 - Métodos.md",
     "3 - POO.md",
@@ -543,8 +545,6 @@
     "10 - Super classes.md",
     "11 - Sobrecarga de construtores.md",
     "12 - toString.md",
-    "13 - Métodos Final.md",
-    "14 - Classes Final.md",
     "Bem-vindo.md",
     "iniciante/8 - Scanners.md",
     "iniciante/10 - Ternários.md",
