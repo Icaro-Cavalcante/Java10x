@@ -121,6 +121,20 @@
             }
           },
           {
+            "id": "788791075e945a52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "19 - Records.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "19 - Records"
+            }
+          },
+          {
             "id": "0c62f334960db6c2",
             "type": "leaf",
             "state": {
@@ -331,7 +345,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "389d27b3af7c4077",
@@ -525,14 +539,15 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "7c9b6907cde44295",
+  "active": "788791075e945a52",
   "lastOpenFiles": [
+    "18 - Generics.md",
+    "19 - Records.md",
     "17 - lists.md",
     "16 - Enums.md",
     "15 - Encapsulamento.md",
     "14 - Classes Final.md",
     "13 - Métodos Final.md",
-    "18 - Generics.md",
     "1 - Classes e objetos.md",
     "2 - Métodos.md",
     "3 - POO.md",
