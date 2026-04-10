@@ -1,3 +1,4 @@
+> Um array com super poderes
 ## Qual a diferença de uma lista para um array?
 
 `Arrays` - São estáticos e tem tamanho predefinido
