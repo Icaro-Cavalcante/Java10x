@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
-        Stack<String> pilhaNinjas = new Stack<>();
+        Stack<String> pilhaNinjas = new Stack<>(); 
         pilhaNinjas.push("Naruto Uzumaki");
         pilhaNinjas.push("Sasuke Uchiha");
         pilhaNinjas.push("Sakura Haruno");
