@@ -27,7 +27,7 @@ Métodos:
 ```java
 nomeFila.add(elemento);
 ```
-nomepilha
+
 `Poll` - Remove o primeiro elemento da lista
 
 ```java
