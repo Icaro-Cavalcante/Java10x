@@ -205,6 +205,20 @@
             }
           },
           {
+            "id": "3bc96f06a5356e32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "intermediário/25 - HashSet vs TreeSet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "25 - HashSet vs TreeSet"
+            }
+          },
+          {
             "id": "0c62f334960db6c2",
             "type": "leaf",
             "state": {
@@ -415,7 +429,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       },
       {
         "id": "389d27b3af7c4077",
@@ -609,10 +623,11 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "ab8169a07afd76db",
+  "active": "23449132f0c2b584",
   "lastOpenFiles": [
-    "intermediário/23 - Linked list.md",
     "intermediário/24 - HashSet.md",
+    "intermediário/25 - HashSet vs TreeSet.md",
+    "intermediário/23 - Linked list.md",
     "iniciante/9 - Match Case.md",
     "iniciante/8 - Scanners.md",
     "intermediário/6 - Polimorfismo.md",
@@ -637,7 +652,6 @@
     "intermediário/20 - Stacks.md",
     "intermediário/13 - Métodos Final.md",
     "intermediário/14 - Classes Final.md",
-    "intermediário/21 - Queue.md",
     "intermediário",
     "iniciante"
   ]
