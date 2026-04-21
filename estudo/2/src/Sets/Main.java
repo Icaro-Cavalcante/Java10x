@@ -5,6 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
+import java.util.LinkedHashSet;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,6 +13,8 @@ public class Main {
         Set<String> ninjas_set = new TreeSet<>();
         Set<Integer> numeros_hash = new HashSet<>();
         Set<Integer> numeros_tree = new TreeSet<>();
+        Set<Integer> numeros_linkedset = new LinkedHashSet<>();
+
 
         ninjas_list.add("Naruto");
         ninjas_list.add("Sasuke");
@@ -27,13 +30,15 @@ public class Main {
         numeros_hash.add(4);
         numeros_hash.add(57);
         numeros_tree.addAll(numeros_hash);
+        numeros_linkedset.addAll(numeros_hash);
 
         System.out.println(ninjas_list);
         System.out.println("\n");
         System.out.println(ninjas_set);
 
-        System.out.println("\nNúmeros: " + numeros_hash);
-        System.out.println("\nNúmeros: " + numeros_tree);
+        System.out.println("\nNúmeros hashset: " + numeros_hash);
+        System.out.println("\nNúmeros treeset: " + numeros_tree);
+        System.out.println("\nNúmeros likedhashset: " + numeros_linkedset);
 
     }
 }
