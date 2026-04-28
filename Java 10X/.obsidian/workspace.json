@@ -252,12 +252,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "spring básico/2 - Primeira API.md",
+                "file": "spring básico/2 - Primeira API (GetMapping).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2 - Primeira API"
+              "title": "2 - Primeira API (GetMapping)"
             }
           },
           {
@@ -665,10 +665,10 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "23449132f0c2b584",
+  "active": "ad6fc367b30c65db",
   "lastOpenFiles": [
     "spring básico/1 - Dependências e maven.md",
-    "spring básico/2 - Primeira API.md",
+    "spring básico/2 - Primeira API (GetMapping).md",
     "Bem-vindo.md",
     "Pasted image 20260414112207.png",
     "Pasted image 20260428132904.png",
