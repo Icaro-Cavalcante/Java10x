@@ -45,7 +45,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping
 ```
 
-Para essa aula vamos usar o método http get, que recebe informações. Para isso vamos usar outra annotation (Prometo que é a última nessa aula
+Para essa aula vamos usar o método http get, que recebe informações. Para isso vamos usar outra annotation (Prometo que é a última nessa aula)
 
 ### Importe
 
