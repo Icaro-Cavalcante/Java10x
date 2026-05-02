@@ -1,10 +1,16 @@
 package autumn.yora.Projeto.Spring;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "ninjas")
 public class NinjaModel {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
     private String nome;
     private int idade;
     private String email;
-    private Long id;
 
     public NinjaModel(String nome, int idade, String email) {
         this.nome = nome;
