@@ -1,6 +1,9 @@
-package autumn.yora.Projeto.Spring;
+package autumn.yora.Projeto.Spring.ninjas;
 
+import autumn.yora.Projeto.Spring.missao.MissaoModel;
 import jakarta.persistence.*;
+
+import java.util.List;
 
 @Entity
 @Table(name = "ninjas")
@@ -11,11 +14,13 @@ public class NinjaModel {
     private String nome;
     private int idade;
     private String email;
+    private List<MissaoModel> lista_missoes;
 
-    public NinjaModel(String nome, int idade, String email) {
+    public NinjaModel(String nome, int idade, String email, List<MissaoModel> lista_missoes) {
         this.nome = nome;
         this.idade = idade;
         this.email = email;
+        this.lista_missoes = lista_missoes;
     }
 
     public NinjaModel() {
@@ -46,12 +51,22 @@ public class NinjaModel {
         this.email = email;
     }
 
+    public List<MissaoModel> getLista_missoes() {
+        return lista_missoes;
+    }
+
+    public void setLista_missoes(List<MissaoModel> lista_missoes) {
+        this.lista_missoes = lista_missoes;
+    }
+
     @Override
     public String toString() {
         return "NinjaModel{" +
-                "nome='" + nome + '\'' +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
                 ", idade=" + idade +
                 ", email='" + email + '\'' +
+                ", lista_missoes=" + lista_missoes +
                 '}';
     }
 }
