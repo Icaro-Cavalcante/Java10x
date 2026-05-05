@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping
 
 public class MissaoController {
-    @GetMapping("/boas-vindas")
+    @GetMapping("/missoes")
     public String boas_vindas() {
-        return "Bem vindo a sua primeira rota";
+        return "Essa é sua missão";
     }
 }

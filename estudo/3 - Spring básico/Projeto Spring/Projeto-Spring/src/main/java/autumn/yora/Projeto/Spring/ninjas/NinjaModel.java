@@ -14,17 +14,20 @@ public class NinjaModel {
     private String nome;
     private int idade;
     private String email;
-    private List<MissaoModel> lista_missoes;
+    // ManyToOne um ninja tem uma única missão
+    @ManyToOne
+    @JoinColumn(name = "missao_id") // Foreign key
+    private Long id_missao;
 
-    public NinjaModel(String nome, int idade, String email, List<MissaoModel> lista_missoes) {
+    public NinjaModel(String nome, int idade, String email, Long id_missao) {
         this.nome = nome;
         this.idade = idade;
         this.email = email;
-        this.lista_missoes = lista_missoes;
+        this.id_missao = id_missao;
     }
 
-    public NinjaModel() {
-
+    public Long getId() {
+        return id;
     }
 
     public String getNome() {
@@ -51,12 +54,12 @@ public class NinjaModel {
         this.email = email;
     }
 
-    public List<MissaoModel> getLista_missoes() {
-        return lista_missoes;
+    public Long getId_missao() {
+        return id_missao;
     }
 
-    public void setLista_missoes(List<MissaoModel> lista_missoes) {
-        this.lista_missoes = lista_missoes;
+    public void setId_missao(Long id_missao) {
+        this.id_missao = id_missao;
     }
 
     @Override
@@ -66,7 +69,7 @@ public class NinjaModel {
                 ", nome='" + nome + '\'' +
                 ", idade=" + idade +
                 ", email='" + email + '\'' +
-                ", lista_missoes=" + lista_missoes +
+                ", id_missao=" + id_missao +
                 '}';
     }
 }

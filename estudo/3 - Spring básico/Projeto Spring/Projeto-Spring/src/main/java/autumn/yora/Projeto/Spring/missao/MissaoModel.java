@@ -1,6 +1,8 @@
 package autumn.yora.Projeto.Spring.missao;
 
+import autumn.yora.Projeto.Spring.ninjas.NinjaModel;
 import jakarta.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "missoes")
@@ -11,6 +13,8 @@ public class MissaoModel {
     private String dificuldade;
     private String descricao;
     private String nome;
+    @OneToMany(mappedBy = "missao")
+    private List<NinjaModel> ninjas;
 
     public MissaoModel(String dificuldade, String descricao, String nome) {
         this.dificuldade = dificuldade;
