@@ -2,10 +2,17 @@ package autumn.yora.Projeto.Spring.missao;
 
 import autumn.yora.Projeto.Spring.ninjas.NinjaModel;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.util.List;
 
 @Entity
 @Table(name = "missoes")
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
 public class MissaoModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -15,41 +22,7 @@ public class MissaoModel {
     private String nome;
     @OneToMany(mappedBy = "missao")
     private List<NinjaModel> ninjas;
-
-    public MissaoModel(String dificuldade, String descricao, String nome) {
-        this.dificuldade = dificuldade;
-        this.descricao = descricao;
-        this.nome = nome;
-    }
-
-    public MissaoModel() {
-
-    }
-
-    public String getDificuldade() {
-        return dificuldade;
-    }
-
-    public void setDificuldade(String dificuldade) {
-        this.dificuldade = dificuldade;
-    }
-
-    public String getDescricao() {
-        return descricao;
-    }
-
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
+    
     @Override
     public String toString() {
         return "MissaoModel{" +
