@@ -22,7 +22,7 @@ public class MissaoModel {
     private String nome;
     @OneToMany(mappedBy = "missao")
     private List<NinjaModel> ninjas;
-    
+
     @Override
     public String toString() {
         return "MissaoModel{" +
