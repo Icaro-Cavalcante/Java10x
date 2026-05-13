@@ -581,9 +581,23 @@
               "icon": "lucide-file",
               "title": "9 - Arquitetura por camadas"
             }
+          },
+          {
+            "id": "65caac5457ea1a7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10 - Repository.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10 - Repository"
+            }
           }
         ],
-        "currentTab": 40
+        "currentTab": 41
       },
       {
         "id": "389d27b3af7c4077",
@@ -777,14 +791,15 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "81f860c6a372739c",
+  "active": "65caac5457ea1a7b",
   "lastOpenFiles": [
+    "spring básico/9 - Arquitetura por camadas.md",
+    "10 - Repository.md",
     "spring básico/8 - Padronização de commits.md",
     "spring básico/7 - Lombok.md",
     "spring básico/6 - Relacionamento entre tabelas.md",
     "spring básico/5 - Modelando Banco de dados.md",
     "spring básico/4 - Git amend.md",
-    "spring básico/9 - Arquitetura por camadas.md",
     "spring básico/3 - Entidades e persistência de dados.md",
     "spring básico/2 - Primeira API (GetMapping).md",
     "spring básico/1 - Dependências e maven.md",
@@ -815,7 +830,6 @@
     "intermediário/2 - Métodos.md",
     "intermediário/22 - Linked list x ArrayList.md",
     "intermediário/12 - toString.md",
-    "intermediário/11 - Sobrecarga de construtores.md",
     "intermediário",
     "iniciante"
   ]
