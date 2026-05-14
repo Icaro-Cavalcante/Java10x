@@ -1,0 +1,1 @@
+> O ORM traduz as classes, métodos e objetos para o banco de dados sem usar SQL
