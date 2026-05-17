@@ -16,15 +16,23 @@ import java.util.List;
 public class NinjaModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+    @Column(name = "id")
     private Long id;
+
+    @Column(name = "nome")
     private String nome;
+
+    @Column(name = "idade")
     private int idade;
-    @Column(unique = true)
+
+    @Column(unique = true, name = "email")
     private String email;
+
     // ManyToOne um ninja tem uma única missão
     @ManyToOne
     @JoinColumn(name = "missao_id") // Foreign key
-    private Long id_missao;
+    private MissaoModel missao;
 
     @Override
     public String toString() {
@@ -32,8 +40,6 @@ public class NinjaModel {
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", idade=" + idade +
-                ", email='" + email + '\'' +
-                ", id_missao=" + id_missao +
-                '}';
+                ", email='" + email + '\'';
     }
 }
