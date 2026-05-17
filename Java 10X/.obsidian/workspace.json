@@ -224,12 +224,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "11 - ORM.md",
+                "file": "spring básico/11 - ORM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "11 - ORM"
+            }
+          },
+          {
+            "id": "c25bdfdf3c138130",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "spring básico/12 - Configuração do BD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "12 - Configuração do BD"
             }
           },
           {
@@ -611,7 +625,7 @@
             }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       },
       {
         "id": "389d27b3af7c4077",
@@ -805,10 +819,18 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "1564ab509ccef218",
+  "active": "c25bdfdf3c138130",
   "lastOpenFiles": [
+    "Pasted image 20260517113957.png",
+    "imagens/Pasted image 20260517113724.png",
+    "imagens/Pasted image 20260430142559.png",
+    "imagens/Pasted image 20260430141910.png",
+    "imagens/Pasted image 20260428124036.png",
+    "spring básico/12 - Configuração do BD.md",
+    "spring básico/11 - ORM.md",
     "spring básico/10 - Repository.md",
-    "11 - ORM.md",
+    "spring básico/2 - Primeira API (GetMapping).md",
+    "spring básico/1 - Dependências e maven.md",
     "spring básico/9 - Arquitetura por camadas.md",
     "spring básico/8 - Padronização de commits.md",
     "spring básico/7 - Lombok.md",
@@ -816,20 +838,15 @@
     "spring básico/5 - Modelando Banco de dados.md",
     "spring básico/4 - Git amend.md",
     "spring básico/3 - Entidades e persistência de dados.md",
-    "spring básico/2 - Primeira API (GetMapping).md",
-    "spring básico/1 - Dependências e maven.md",
     "iniciante/6 - Dados não primitivos e métodos.md",
     "Sem título.md",
-    "imagens/Pasted image 20260430142559.png",
     "imagens/Pasted image 20260430142440.png",
     "imagens/Pasted image 20260430142724.png",
-    "imagens/Pasted image 20260430141910.png",
     "Bem-vindo.md",
     "imagens",
     "imagens/Pasted image 20260428121403.png",
     "imagens/Pasted image 20260414112207.png",
     "imagens/Pasted image 20260428132904.png",
-    "imagens/Pasted image 20260428124036.png",
     "imagens/Pasted image 20260428123731.png",
     "spring básico",
     "intermediário/26 - LinkedHashSet.md",
@@ -842,8 +859,6 @@
     "intermediário/5 - Interfaces.md",
     "intermediário/4- Herança.md",
     "intermediário/3 - POO.md",
-    "intermediário/2 - Métodos.md",
-    "intermediário/22 - Linked list x ArrayList.md",
     "intermediário",
     "iniciante"
   ]
