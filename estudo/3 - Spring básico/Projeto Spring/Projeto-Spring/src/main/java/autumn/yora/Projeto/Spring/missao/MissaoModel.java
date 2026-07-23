@@ -1,6 +1,7 @@
 package autumn.yora.Projeto.Spring.missao;
 
 import autumn.yora.Projeto.Spring.ninjas.NinjaModel;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -30,6 +31,7 @@ public class MissaoModel {
     private String nome;
 
     @OneToMany(mappedBy = "missao")
+    @JsonIgnore
     private List<NinjaModel> ninjas;
 
     @Override
