@@ -9,7 +9,7 @@ Em geral a função de buscar por ID no services se assemelha a isso
 
 Usamos o optional para evitar null pointer exceptions caso o resultado for nulo
 
-Para chamar esse método no controller, vamos ter que usar path variaes para saber qual usuário vamos consultar.
+Para chamar esse método no controller, vamos ter que usar path variables para saber qual usuário vamos consultar.
 
 ```java
 @GetMapping("/consultar_usuario/{id}")
